@@ -68,6 +68,10 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			backgroundImage: {
+				'gradient-primary': 'linear-gradient(135deg, hsl(var(--gradient-primary-start)), hsl(var(--gradient-primary-end)))',
+				'gradient-secondary': 'linear-gradient(135deg, hsl(var(--gradient-secondary-start)), hsl(var(--gradient-secondary-end)))',
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
